@@ -1,0 +1,112 @@
+body {
+     background-color: #e9ebf8;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     padding: 30px;
+     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+     overflow-x: hidden;
+}
+button {
+     background-color: #20bfa9;
+}
+body > div {
+     background-color: #e6e8f7;
+     position: absolute;
+     width: 90%;
+     padding: 20px;
+     border-radius: 50px;
+     border-radius: 50px;
+     background: #e2eaee;
+     box-shadow: 20px 20px 60px #e9ebf8, -20px -20px 60px #e9ebf8;
+     box-sizing: border-box;
+}
+.container1 {
+     transform: rotate(-9deg);
+     background-color: white;
+     height: 95vh;
+}
+.container2 {
+     transform: rotate(-4deg);
+     background-color: white;
+     height: 95vh;
+}
+.container {
+     background-color: #fafbff;
+}
+.mainContainer {
+     width: 90%;
+     max-width: 1240px;
+     margin: 0 auto;
+}
+.header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.header button {
+     outline: none;
+     padding: 8px 15px;
+     border-radius: 999px;
+     color: white;
+     border: none;
+}
+.main {
+     display: flex;
+     align-items: center;
+}
+.sideImg {
+     width: 60%;
+     object-fit: contain;
+}
+.main h1 {
+     font-size: 50px;
+}
+.main p {
+     color: lightgray;
+     font-size: 14px;
+     font-weight: 400;
+     font-family: emoji;
+}
+
+.formContainer {
+     width: 60%;
+}
+form {
+     display: flex;
+     align-items: center;
+     padding: 15px;
+     border-radius: 999px;
+     border-radius: 50px;
+     border-radius: 50px;
+     background: #ffffff;
+     box-shadow: 20px 20px 60px #e9ebf8, -20px -20px 60px #e9ebf8;
+}
+form img {
+     width: 20px;
+}
+form input,
+form button {
+     border: none;
+     outline: none;
+     background-color: transparent;
+     width: 40%;
+}
+form button {
+     padding: 20px;
+     border-radius: 999px;
+     color: white;
+     background-color: #20bfa9;
+     font-size: 16px;
+}
+.footer div {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+}
+.footer img {
+     width: 40px;
+     object-fit: contain;
+     margin-right: 15px;
+}
